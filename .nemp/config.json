@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "autoCapture": {
+    "enabled": false,
+    "tools": ["Edit", "Write", "Bash"],
+    "capturePatterns": {
+      "Edit": "file modifications",
+      "Write": "new files created",
+      "Bash": "git commits, npm/bun commands"
+    },
+    "excludePaths": [
+      "node_modules/**",
+      ".git/**",
+      "*.log",
+      ".nemp/**"
+    ]
+  }
+}
